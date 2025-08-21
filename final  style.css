@@ -1,0 +1,170 @@
+*{ 
+        margin: 0;
+        padding: 0;
+}
+
+
+
+.wrapper{
+    width: 1300px;
+    margin: auto;
+}
+
+
+header{
+    background: url(golden-5007410_960_720.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+}
+
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.nav-area li a:hover{
+    background: black;
+    color: aliceblue;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    height: auto;
+    margin-top: 12px;
+}
+
+.welcome-text{
+   position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform:;
+    font-size: 50px
+}
+
+
+/*----- Dogs -----*/
+
+
+.Dogs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px
+        
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px
+}
+{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----- Dogs2 -----*/
+
+
+.Dogs2{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 70px
+        
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px
+}
+{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----- Pictures-----*/
+
+.Pictures{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Pictures-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow:hidden
+}
+.Pictures-col img{
+    width: 50%
+        
+<!----- cnt ----->
+        
+        .cnt {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        
+    }
+    
+    body{
+        background-color: aliceblue;
+    }
+    .container{
+        width: 80px;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: dodgerblue;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px
+    }
